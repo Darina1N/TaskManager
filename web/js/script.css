@@ -1,0 +1,17 @@
+body{
+    background-color: lightslategrey;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 750px;
+    padding-right: 750px;
+    height: 800px;
+}
+
+#taskname{
+    margin-right: 800px;
+
+}

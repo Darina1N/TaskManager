@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="script.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form>
+            <label for="Task">Task:</label>
+            <input type="text" placeholder="name of new task" class="taskname">
+            <label for="Task">Priority:</label>
+            <input type="number" value="2" min="1" max="3" class="priority" >
+            <label for="Task">Price:</label>
+            <input type="number" min="0" class="price" value="0" step="0.01">
+            <button id="addTask">Add new task</button>
+        </form>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
